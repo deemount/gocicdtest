@@ -9,6 +9,6 @@ spec:
   source:
     repoURL: 'https://github.com/deemount/gitopstest.git'
     targetRevision: HEAD
-    path: basic-deployment
+    path: test-application
   destination:
     server: 'https://kubernetes.default.svc'
