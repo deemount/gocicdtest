@@ -18,6 +18,8 @@ terraform apply
 
 ## Deploy
 
+ArgoCD tracking of the repo
+
 ```bash
 kubectl apply -f basic-deployment/application.yaml
 ```
