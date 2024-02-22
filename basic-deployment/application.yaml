@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/deemount/gitopstest.git
+    repoURL: 'https://github.com/deemount/gitopstest.git'
     targetRevision: HEAD
     path: test-application
   destination:

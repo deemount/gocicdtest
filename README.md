@@ -1,24 +1,8 @@
 # Go CI/CD Test
 
-## Homebrew
-
-```bash
-brew install argocd
-```
-
-## Using Helm to install ArgoCD with Terraform
-
-+ check /terraform directory
-+ check version in /terraform/argocd.tf and change to your needs
-
-```bash
-terraform init
-terraform apply
-```
-
 ## Deploy
 
-ArgoCD tracking of the repo
+Deploy tha application to let track ArgoCD the repository (see link below Test Application)
 
 ```bash
 kubectl apply -f basic-deployment/application.yaml
